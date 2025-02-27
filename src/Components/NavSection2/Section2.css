@@ -1,0 +1,37 @@
+.SecTwoCon{
+    display: flex;
+    justify-content: space-between;
+    padding:80px;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+.secTwoImg{
+    img{
+        width: 400px;
+    }
+}
+.secTwoText{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.icons{
+    display: flex;
+    gap: 50px;
+}
+.icon-items{
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+.text-items{
+   display: flex;
+   flex-direction: column;
+   gap: 18px;
+
+   span{
+   width: 500px;
+   }
+}
