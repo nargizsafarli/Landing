@@ -7,26 +7,36 @@
    background-size: 575px;
    background-repeat: no-repeat;
    justify-content: center;
-   gap: 20px;
-   margin-left: 60px;
+   gap: 40px;
+   margin-left: 190px;
    font-family: sans-serif;
   
  h2{
     width: 44%;
     font-size: 45px;
     font-weight: 300;
+    font-family: sans-serif;
  }
 
   span{
     width: 40%;
+    color: rgb(115, 115, 245);
+    font-family: sans-serif;
+    line-height: 1.6;
   }
 
 }
 .int-btn{
     display: flex;
     gap: 20px;
+    font-family: sans-serif;
     button{
-        padding: 6px 25px;
+        padding: 10px 39px;
+        transition: all 0.3s ease;
+
+        &:hover{
+          background-color: rgb(24, 24, 250);
+        }
     }
 }
 .btn-1{

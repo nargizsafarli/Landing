@@ -1,0 +1,41 @@
+.about-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px;
+    background-color: rgb(245, 243, 243);
+}
+.about-text{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-top: 80px;
+
+    p{
+        font-size: 65px;
+        color: rgb(67, 67, 224);
+        font-weight: bolder;
+
+        span{
+            color: rgb(8, 8, 85);
+        }
+    }
+
+    h3{
+        width: 570px;
+        font-size: 20px;
+    }
+}
+.about-img{
+    position: relative;
+}
+.img3{
+    position: absolute;
+   bottom: 50px;
+   right: 210px;
+}
+.img2{
+    position: absolute;
+    bottom: -12px;
+    right: -60px;
+    height: 290px;
+}

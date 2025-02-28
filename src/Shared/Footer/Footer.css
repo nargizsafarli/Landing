@@ -1,38 +1,4 @@
-/* .footer-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 100px 0 0;
-    background-color: rgb(235, 235, 247);
-}
-.footer-sec1{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    span{
-        width: 500px;
-    }
-}
-.fPrice{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    align-items: center;
-}
-.fButton{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    align-items: center;
-    button{
-        padding: 10px 40px;
-        color: white;
-        background-color: rgb(5, 5, 54);
-    }
-} */
+
 .fSec2{
     display: flex;
     flex-direction: column;
@@ -49,6 +15,16 @@
         padding: 10px 40px;
         color: white;
         background-color: rgb(5, 5, 54);
+        transition: all 0.3s ease;
+
+        &:hover{
+            background-color: blue;
+        }
+        
+        p{
+            color: rgb(132, 132, 245);
+            font-weight: bold;
+        }
     }
 }
 .footer{
@@ -58,4 +34,21 @@
 .navFooter{
     display: flex;
     gap: 10px;
+    color:rgb(146, 146, 233)
+}
+.social-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 18px;
+    a{
+        color: rgb(147, 147, 236);
+        transition: all 0.3s ease;
+
+       &:hover{
+        color: blue;
+       }
+    }
+    
 }
