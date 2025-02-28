@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { useSearchParams } from "react-router-dom";
+import { useNavigate, useSearchParams } from "react-router-dom";
+import "./Detaild.css"
 
 function Detaild() {
     const [searchParams] = useSearchParams();
@@ -7,7 +8,7 @@ function Detaild() {
     const [product, setProduct] = useState(null);
     const [error, setError] = useState(null);
     const [loading, setLoading] = useState(true);
-
+    const navigate=useNavigate()
     useEffect(() => {
         if (!productId) return;
         async function fetchProduct() {
@@ -33,11 +34,16 @@ function Detaild() {
     if (!product) return <p>No product found.</p>;
 
     return (
-        <div style={{ textAlign: "center", padding: "20px" }}>
-            <h2>{product.title}</h2>
-            <img src={product.image} alt={product.title} width="200" />
+        <div className="cont">
+        <div className="detail-container">
+           <div> <img src={product.image} alt={product.title} width="200" /></div> 
+           <div className="detail-des">
+           <h2>{product.title}</h2>
             <p>{product.description}</p>
-            <p><strong>Price:</strong> ${product.price}</p>
+            <span><strong>Price:</strong> ${product.price}</span>
+           </div>
+           <button onClick={()=>{navigate("/product")}}>← GO BACK</button>
+        </div>
         </div>
     );
 }

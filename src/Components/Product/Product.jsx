@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import "./Product.css"
-import Navbar from '../../Shared/Navbar/Navbar';
 import { useNavigate } from 'react-router-dom';
+import { MdOutlineRemoveRedEye } from "react-icons/md";
 
 function Product() {
     const [data,setData]=useState([]);
@@ -34,7 +34,8 @@ function Product() {
         {data.map(el=>(
             <div className='card-item' key={el.id}>
             <img src={el.image} width="110"/>
-            <button onClick={()=>navigate(`/detail?id=${el.id}`)}>View</button>
+            <div className='icon-divv' onClick={()=>navigate(`/detail?id=${el.id}`)}>View more...</div>
+            
             </div> 
         ))}
        
