@@ -11,6 +11,7 @@ import Pricing from '../../Components/Pricing/Pricing'
 function Home() {
   return (
     <div>
+        <Navbar/>
         <Introduce/>
        <Section2/>
        <Section3/>

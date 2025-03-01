@@ -24,6 +24,12 @@
     flex-direction: column;
     gap: 10px;
     align-items: center;
+
+    h1{
+        font-size: 55px;
+        font-weight: 520;
+        color: rgb(8, 8, 92);
+    }
 }
 .fButton{
     display: flex;

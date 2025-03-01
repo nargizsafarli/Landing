@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import "./Product.css"
 import { useNavigate } from 'react-router-dom';
-import { MdOutlineRemoveRedEye } from "react-icons/md";
+
 
 function Product() {
     const [data,setData]=useState([]);

@@ -22,7 +22,7 @@ function Navbar() {
         ))}
        </div>
        <p>Landing</p>
-      <button onClick={()=>navigate("product")} className='button'>Buy Now</button>
+      <button onClick={()=>navigate("/product")} className='button'>Buy Now</button>
     </div>
   )
 }

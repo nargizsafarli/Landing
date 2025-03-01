@@ -9,13 +9,14 @@
    justify-content: center;
    gap: 40px;
    margin-left: 190px;
-   font-family: sans-serif;
+   /* font-family: sans-serif; */
   
  h2{
     width: 44%;
     font-size: 45px;
-    font-weight: 300;
-    font-family: sans-serif;
+    font-weight: 600;
+    font-family:"Roboto" sans-serif;
+
  }
 
   span{
@@ -30,9 +31,11 @@
     display: flex;
     gap: 20px;
     font-family: sans-serif;
+   
     button{
         padding: 10px 39px;
         transition: all 0.3s ease;
+        font-weight: 900;
 
         &:hover{
           background-color: rgb(24, 24, 250);

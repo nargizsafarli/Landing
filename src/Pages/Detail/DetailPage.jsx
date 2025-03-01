@@ -1,10 +1,14 @@
 import React from 'react'
-import Product from '../../Components/Product/Product'
+import Navbar from '../../Shared/Navbar/Navbar'
 import Detaild from '../../Components/Detaild/Detaild'
+
+
+
 
 function DetailPage() {
   return (
     <div>
+       <Navbar/>
        <Detaild/>
     </div>
   )
