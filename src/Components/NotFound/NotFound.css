@@ -1,0 +1,17 @@
+.found-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 500px;
+    gap: 20px;
+
+    span{
+        width: 600px;
+        text-align: center;
+    }
+
+    p{
+        font-size: 200px;
+    }
+}

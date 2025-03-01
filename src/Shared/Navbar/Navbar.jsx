@@ -8,9 +8,6 @@ function Navbar() {
   return (
     <div className='Navbar'>
        <div className='link'>
-       {/* <Link to="/">Home</Link>
-       <Link to="about">About</Link>
-       <Link to="contact">Contact</Link> */}
        {["Home", "About", "Contact"].map((name, index) => (
           <NavLink
             key={index}
